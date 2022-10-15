@@ -22,8 +22,8 @@ function App() {
         {path : 'experience', element : <Experience/>},
         {path : 'contact', element : <Contact/>},
         {path : 'about', element : <About/>},
-        {path : 'sign-in', element : <SingIn/>},
-        {path : 'sign-up', element : <SingUp />},
+        {path : 'sing-in', element : <SingIn/>},
+        {path : 'sing-up', element : <SingUp />},
       ],
       errorElement :<ErrorPage/>,
     }

@@ -3,7 +3,7 @@ import React from 'react';
 const SingUp = () => {
     return (
         <div className='sing-up-page'>
-            this is a sign up
+            this is sing up
         </div>
     );
 };
