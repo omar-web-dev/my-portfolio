@@ -2,7 +2,7 @@ import './App.css';
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Main from './Layout/Main';
 import Home from './Component/Home';
-import Erorr from './Component/Erorr';
+import ErrorPage from './Component/ErrorPage';
 import Service from './Component/Service';
 import Contact from './Component/Contact';
 import About from './Component/About';
@@ -25,7 +25,7 @@ function App() {
         {path : 'sign-in', element : <SingIn/>},
         {path : 'sign-up', element : <SingUp />},
       ],
-      errorElement :<Erorr/>,
+      errorElement :<ErrorPage/>,
     }
   ])
   return (
